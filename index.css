@@ -117,6 +117,27 @@ footer {
 
 /* Responsive */
 /*Media Query*/
+@media only screen and (max-width: 400px) {
+    .bg-Hero {margin-top: 3rem !important;  }
+
+    main { margin-top: 1rem !important; }
+        main section:nth-child(2) { flex-direction: column-reverse; }
+        .main-con { flex-direction: column-reverse; }
+
+    footer { 
+        margin-top: 12rem;
+        font-size: 18px;
+    }
+        .footer-nav, .footer-social {
+            padding-left: 1.5rem !important;
+        }
+        .footer-social i {
+            padding: .2rem .47rem;
+            cursor: pointer;
+            font-size: 25px;
+        }
+        .footer-social p { justify-content: center !important; }
+}
 @media only screen and (min-width: 401px) and (max-width: 576px) {
     .bg-Hero {margin-top: 3rem !important;  }
 
